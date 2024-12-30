@@ -36,4 +36,24 @@ Puedes realizar conversiones como:
 1. Clona este repositorio en tu máquina local:
 
    ```bash
-   git clone https://github.com/tu-usuario/conversor-monedas.git
+   git clone https://github.com/tu-usuario/Conversos-De-Divisas.git
+
+## Con maven
+
+   ```maven
+   <dependency>
+    <groupId>com.google.code.gson</groupId>
+    <artifactId>gson</artifactId>
+    <version>2.8.9</version>
+</dependency>
+```
+
+1. Regístrate en ExchangeRate API para obtener tu clave de API.
+2. Configura tu clave de API en el código (por ejemplo, como una constante o variable de entorno).
+3. Ejecuta el proyecto.
+
+## Uso
+
+1. Ingresa la moneda de origen y la moneda de destino.
+2. Especifica la cantidad a convertir.
+3. El sistema hará una solicitud a la API, procesará la respuesta y mostrará el resultado en la interfaz.
